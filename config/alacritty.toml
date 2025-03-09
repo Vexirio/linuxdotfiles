@@ -1,0 +1,36 @@
+# ==== Основные настройки ====
+[window]
+opacity = 0.9  # Прозрачность (1.0 — без прозрачности, 0.0 — полностью прозрачный)
+decorations = "full"  # "full" — стандартные кнопки окна, "none" — без рамки
+
+# ==== Настройки шрифта ====
+[font]
+size = 15  # Размер шрифта
+
+[font.normal]
+family = "Cascadia Code"  # Используемый шрифт
+style = "Bold"  # Делаем его жирным
+
+[font.bold]
+family = "Cascadia Code"
+style = "Bold"
+
+[font.italic]
+family = "Cascadia Code"
+style = "Italic"
+
+# ==== Цветовая схема ====
+[colors.primary]
+background = "0x1e1e2e"  # Тёмный фон
+foreground = "0xcdd6f4"  # Цвет текста
+
+# ==== Горячие клавиши ====
+[keyboard]
+bindings = [
+  { key = "V", mods = "Control", action = "Paste" },  # Вставка (Ctrl+Shift+V)
+  { key = "C", mods = "Control", action = "Copy" }    # Копирование (Ctrl+Shift+C)
+]
+
+# ==== Cursor ====
+[cursor]
+style = "Beam"
