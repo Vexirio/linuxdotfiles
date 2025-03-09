@@ -107,7 +107,7 @@ for_window [class=".*"] title_window no
 exec --no-startup-id setxkbmap -layout "us,ru" -variant "colemak,"
 
 #wallpaper
-exec --no-startup-id feh --bg-scale /home/vexirio/wallpapers/bwwallpaper.ppg
+exec --no-startup-id feh --bg-scale /home/vexirio/wallpapers/bwwallpaper.png
 
 #file manager
 bindsym $mod+e exec thunar
